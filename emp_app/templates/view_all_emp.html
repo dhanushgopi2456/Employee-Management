@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Employee Table</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Employee List</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Firstname</th>
+                    <th scope="col">Lastname</th>
+                    <th scope="col">Salary</th>
+                    <th scope="col">Bonus</th>
+                    <th scope="col">Phonenum</th>
+                    <th scope="col">Hiredate</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in mylist %}
+                <tr>
+                    <td>{{ i.firstname }}</td>
+                    <td>{{ i.lastname }}</td>
+                    <td>{{ i.salary }}</td>
+                    <td>{{ i.bonus }}</td>
+                    <td>{{ i.phonenum }}</td>
+                    <td>{{ i.hiredate }}</td>
+                    <td>{{ i.dept.name }}</td> 
+                    <td>{{ i.role.name }}</td> 
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="{% url 'index' %}">Back to Home</a>
+    </div>
+</body>
+</html>
