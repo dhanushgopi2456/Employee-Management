@@ -4,10 +4,9 @@ This is a full-featured **Employee Management System** web application that allo
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js, HTML, CSS
-- **Backend**: Java, Spring Boot (or Servlet/JSP if applicable)
+- **Frontend**: BootStrap, HTML, CSS
+- **Backend**: Django , Python
 - **Database**: MySQL (or your chosen DB)
-- **Build Tools**: Maven (if Java backend), Vite (for React)
 - **Version Control**: Git & GitHub
 
 ## ✨ Features
