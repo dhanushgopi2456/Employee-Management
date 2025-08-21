@@ -73,3 +73,7 @@ python manage.py runserver
 
 Now open http://127.0.0.1:8000/
  in your browser 🚀
+
+
+👤 Developed By
+Dhanush Gopi Kavala
