@@ -44,3 +44,32 @@ Employee-Management/
 ├── db.sqlite3                # SQLite database file
 ├── manage.py                 # Django project management script
 └── README.md                 # (To be created)
+
+Employee-Management/
+├── emp_app/ # Application logic
+├── emp_mgt/ # Project settings
+├── db.sqlite3 # Database
+└── manage.py # Management script
+
+
+---
+
+## ⚡ Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/dhanushgopi2456/Employee-Management.git
+cd Employee-Management
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Run migrations
+python manage.py migrate
+
+4. Start the server
+python manage.py runserver
+
+
+Now open http://127.0.0.1:8000/
+ in your browser 🚀
